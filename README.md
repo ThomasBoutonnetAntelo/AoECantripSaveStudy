@@ -40,6 +40,7 @@ Apparently thunder offers the worst coverage, while force is resisted by no one.
 <br />
 
 ### Observational study ([Plots.ipynb](Plots.ipynb))
+
 <br />
 
 #### 2.1 Correlations between stats
@@ -149,6 +150,7 @@ We have also seen that the dex stat doesn't get higher when the challenge rating
 
 As we explained just above, cr has a big effect on saves. This means we cannot have an overall look into monsters without considering cr. Anyways a group of adventurer won't fight monsters with very different crs, instead they will fight monster in a specified bracket more adjusted to their level. So, a better look could be based on cr.
 
+<br />
 
 #### 2.3 Mean dex and con by cr
  
