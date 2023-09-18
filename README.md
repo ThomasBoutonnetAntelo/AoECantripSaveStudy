@@ -10,24 +10,25 @@ Disclaimer: The data is based only on DnD Player's Handbook monsters. Although t
 ## Table of content:
 
 
-- Preliminar
-    - 1.1 Database
-    - 1.2 Resistances
+* 1 Preliminar
+    * 1.1 Database
+    * 1.2 Resistances
 
-- Observational study
-    - 2.1 Correlations between stats
-    - 2.2 Correlations between saves
-    - 2.3 Mean dex and con by cr
+* 2 Observational study
+    * 2.1 Correlations between stats
+    * 2.2 Correlations between saves
+    * 2.3 Mean dex and con by cr
     
-- Conclusion #conclusion
-    - 1.1 Verification and Rule of thumb
+* 3 Conclusion
+    * 3.1 Verification and Rule of thumb
 
 
 
 
 ### Preliminar
 
-#### 1.1 Database (link)
+
+#### 1.1 [Database](Database.ipynb)
 
 
 #### 1.2 [Resistances](Resistances.ipynb)
@@ -35,9 +36,10 @@ Disclaimer: The data is based only on DnD Player's Handbook monsters. Although t
 ![resistances_and_immunities_phb](https://github.com/ThomasBoutonnetAntelo/AoE_pre_publication/assets/12410931/42eca2ef-ccec-4b5b-9438-f057d9d310ba)
 
 Apparently thunder offers the worst coverage, while force is resisted by no one. While this database is short, this proportion of resistances is transposable to the totallity of monsters published in alternative books, per common consensus.
+
 <br />
 
-### Observational study
+### Observational study ([Plots.ipynb](Plots.ipynb))
 <br />
 
 #### 2.1 Correlations between stats
@@ -214,4 +216,6 @@ Keeping in mind this study was done only using the Player's Handbook as a source
 
 As a conclusion statement we can only but frame our rule of thumb:  
 
-      When cr is lower than 2 use **CON saves** when cr is higher than 2 us **DEX saves**
+
+| :zap:        When cr is lower than 2 use CON saves, when cr is higher than 2 us DEX saves|
+|------------------------------------------------------------------------------------------|
