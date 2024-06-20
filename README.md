@@ -177,7 +177,7 @@ Well, that is quite conclusive. What we can see is that depending on the cr it m
 When cr is lower than 2:
 **CON saves are the winner!**
 
-Wehn cr is higher than 2:
+Wehn cr is higher or equal to 2:
 **DEX saves are the winner!**
 
 <br />
@@ -190,7 +190,7 @@ Wehn cr is higher than 2:
 
 <br />
 
-So, we have created thanks to our observation a rule of thumb where ***con*** **saves are lower thus better against at cr<2, and** ***dex*** **saves are lower thus better against at cr>2**. This is quite the predicament, is it really an useful rule of thumb? To be critical of our own conclusions, lets verify our predictive rule.
+So, we have created thanks to our observation a rule of thumb where ***con*** **saves are lower thus better against at cr<2, and** ***dex*** **saves are lower thus better against at cr>=2**. This is quite the predicament, is it really a useful rule of thumb? To be critical of our own conclusions, lets verify our predictive rule.
 
 Lets calculate the precision of the rule on each cr level to see how it applies. We will calculate the percentage of monsters whose dex & con relation (<, = or >) is the same or not as the relation between the means. 
         
@@ -206,7 +206,7 @@ Lets calculate the precision of the rule on each cr level to see how it applies.
 
 Taking into account that monsters whose dex and con saves are equal don't skew our choice, we can safely say that our rule of thumb has around 75% accuracy throughout every cr level in the Player's Handbook monster list. (The cr 12 dip is caused by the very small pool of monsters skewing the results)
 
-This resolves the debate about which is best between **dex** or **con** saves. It is evident that at higher cr than 2 dex saves are lower for us to abuse, in front of an ever rising constitution. In lower cr brackets constitution is lacking, making it perfect for our low level AoE spells. We have also proven a misconception about size: **smaller creatures don't have strictly higher dex saves**, it stays quite static by size until the biggest ones which see an augment. On the other hand constitution saves do get lower depending on size. Comparing these two will give constitution a better outcome, but for tiny and small creatures only. 
+This resolves the debate about which is best between **dex** or **con** saves. It is evident that at equal or higher cr than 2 dex saves are lower for us to abuse, in front of an ever rising constitution. In lower cr brackets constitution is lacking, making it perfect for our low level AoE spells. We have also proven a misconception about size: **smaller creatures don't have strictly higher dex saves**, it stays quite static by size until the biggest ones which see an augment. On the other hand constitution saves do get lower depending on size. Comparing these two will give constitution a better outcome, but for tiny and small creatures only. 
 
 Maybe other stats or characteristics might influence our choice of save, but as an overall choice our rule of thumbs has a pretty high succes rate. 
 
@@ -219,5 +219,5 @@ Keeping in mind this study was done only using the Player's Handbook as a source
 As a conclusion statement we can only but frame our rule of thumb:  
 
 
-| :zap:        When cr is lower than 2 use CON saves, when cr is higher than 2 us DEX saves|
+| :zap:        When cr is lower than 2 use CON saves, when cr is higher or equal to 2 us DEX saves|
 |------------------------------------------------------------------------------------------|
